@@ -4,10 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMQServer", "RMQServer\RMQServer.csproj", "{2276B156-B383-4D23-8188-9FA0087D1C98}"
+	ProjectSection(ProjectDependencies) = postProject
+		{685C7C90-36E7-4CBF-889D-3C5BEA9E98CA} = {685C7C90-36E7-4CBF-889D-3C5BEA9E98CA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMQClient", "RMQClient\RMQClient.csproj", "{8B6F83E9-2743-4082-8E01-121990941C5D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{685C7C90-36E7-4CBF-889D-3C5BEA9E98CA} = {685C7C90-36E7-4CBF-889D-3C5BEA9E98CA}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMQChatLib", "RMQChatLib\RMQChatLib.csproj", "{685C7C90-36E7-4CBF-889D-3C5BEA9E98CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RMQChatLib", "RMQChatLib\RMQChatLib.csproj", "{685C7C90-36E7-4CBF-889D-3C5BEA9E98CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

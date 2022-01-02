@@ -12,7 +12,7 @@ namespace RMQClient
     {
         // VARS start
 
-        private static readonly UserClientInfo UserInfo = new UserClientInfo(Guid.NewGuid(), "placeholder");
+        private static readonly UserClientInfo UserInfo = new UserClientInfo(Guid.NewGuid(), "xXx=EHOT_B_TATTKAX=xXx");
 
         /* Client program user interface "ref"
          * If you want to gather info form UI or change it use this var
@@ -28,6 +28,7 @@ namespace RMQClient
             Application.SetCompatibleTextRenderingDefault(false);
             HUD = new ClientForm();
             Application.Run(HUD);
+
         }
     }
 }
