@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Aleksei Kharchenko, Maksim Pautsina, Viktor Ascheulov, Dmytro Kruhlov</Authors>
+    <Company>DreamTeam</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+</Project>
